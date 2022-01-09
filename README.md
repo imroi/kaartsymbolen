@@ -1,2 +1,2 @@
-# pictogrammen
+# Kaartsymbolen
 Iconen en styling
