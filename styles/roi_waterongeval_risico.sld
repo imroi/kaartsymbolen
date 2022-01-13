@@ -16,9 +16,6 @@
                 <Format>image/svg</Format>
               </ExternalGraphic>
               <Size>40</Size>
-              <Rotation>
-                <ogc:PropertyName>rotatie</ogc:PropertyName>
-              </Rotation>
             </Graphic>
           </PointSymbolizer>
         </Rule>

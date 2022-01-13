@@ -12,7 +12,7 @@
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>toegankelijkheid_type_id</ogc:PropertyName>
+              <ogc:PropertyName>sector_type_id</ogc:PropertyName>
               <ogc:Literal>101</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -43,13 +43,13 @@
           </se:LineSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>Drassig, niet berijdbaar</se:Name>
+          <se:Name>102</se:Name>
           <se:Description>
             <se:Title>Drassig, niet berijdbaar</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>toegankelijkheid_type_id</ogc:PropertyName>
+              <ogc:PropertyName>sector_type_id</ogc:PropertyName>
               <ogc:Literal>102</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -80,13 +80,13 @@
           </se:LineSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>Gevaarlijk, nooit te betreden</se:Name>
+          <se:Name>103</se:Name>
           <se:Description>
             <se:Title>Gevaarlijk, nooit te betreden</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>toegankelijkheid_type_id</ogc:PropertyName>
+              <ogc:PropertyName>sector_type_id</ogc:PropertyName>
               <ogc:Literal>103</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -117,13 +117,13 @@
           </se:LineSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>Anders</se:Name>
+          <se:Name>999</se:Name>
           <se:Description>
             <se:Title>Anders</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>toegankelijkheid_type_id</ogc:PropertyName>
+              <ogc:PropertyName>sector_type_id</ogc:PropertyName>
               <ogc:Literal>999</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
