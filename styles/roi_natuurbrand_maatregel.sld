@@ -5,6 +5,7 @@
     <UserStyle>
       <se:Name>roi_natuurbrand_maatregel</se:Name>
       <se:FeatureTypeStyle>
+      
         <se:Rule>
           <se:Name>101</se:Name>
           <se:Description>
@@ -20,12 +21,13 @@
             <se:Stroke>
               <se:SvgParameter name="stroke">#db1e2a</se:SvgParameter>
               <se:SvgParameter name="stroke-width">4</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-dasharray">4 2</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+              <se:SvgParameter name="stroke-dasharray">5 10</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
+        
         <se:Rule>
           <se:Name>102</se:Name>
           <se:Description>
@@ -51,10 +53,11 @@
               <se:SvgParameter name="stroke-width">3</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
-              <se:SvgParameter name="stroke-dasharray">1 2</se:SvgParameter>
+              <se:SvgParameter name="stroke-dasharray">5 10</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
+        
         <se:Rule>
           <se:Name>103</se:Name>
           <se:Description>
@@ -80,15 +83,22 @@
               <se:SvgParameter name="stroke-width">3</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
               <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
-              <se:SvgParameter name="stroke-dasharray">1 2</se:SvgParameter>
+              <se:SvgParameter name="stroke-dasharray">5 10</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
+        
         <se:Rule>
           <se:Name>999</se:Name>
           <se:Description>
             <se:Title>Overige</se:Title>
           </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>maatregel_type_id</ogc:PropertyName>
+              <ogc:Literal>999</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#535353</se:SvgParameter>
@@ -98,6 +108,7 @@
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
+        
         <se:Rule>
           <se:TextSymbolizer>
             <se:Label>
@@ -125,7 +136,9 @@
             <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
+        
       </se:FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
+

@@ -6,138 +6,15 @@
       <se:Name>roi_natuurbrand_bereikbaarheid</se:Name>
       <se:FeatureTypeStyle>
 
-
-        <!-- Berijdbaar alle voertuigen -->												
         <se:Rule>
-          <se:Name>Berijdbaar alle voertuigen</se:Name>
-          <se:Description>
-            <se:Title>Berijdbaar alle voertuigen</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>bereikbaarheid_type_id</ogc:PropertyName>
-              <ogc:Literal>205</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:MaxScaleDenominator>80000</se:MaxScaleDenominator> 
-          <se:LineSymbolizer>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-            </se:Stroke>
-          </se:LineSymbolizer>
-          <se:LineSymbolizer>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#ff9f11</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-            </se:Stroke>
-          </se:LineSymbolizer>
-          <se:LineSymbolizer>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-dasharray">11 11</se:SvgParameter>
-            </se:Stroke>
-          </se:LineSymbolizer>
-          <se:TextSymbolizer>
-            <se:VendorOption name="followLine">true</se:VendorOption>
-            <se:VendorOption name="maxAngleDelta">90</se:VendorOption>
-            <se:VendorOption name="maxDisplacement">400</se:VendorOption>
-            <se:VendorOption name="repeat">1000</se:VendorOption>
-          </se:TextSymbolizer>
-        </se:Rule>
-
-        <!-- Berijdbaar 4x4 zwaar -->										
-        <se:Rule>
-          <se:Name>Berijdbaar 4x4 zwaar</se:Name>
-          <se:Description>
-            <se:Title>Berijdbaar 4x4 zwaar</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>bereikbaarheid_type_id</ogc:PropertyName>
-              <ogc:Literal>207</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:MaxScaleDenominator>80000</se:MaxScaleDenominator> 
-          <se:LineSymbolizer>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-            </se:Stroke>
-          </se:LineSymbolizer>
-          <se:LineSymbolizer>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#ff9f11</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-            </se:Stroke>
-          </se:LineSymbolizer>
-          <se:TextSymbolizer>
-            <se:VendorOption name="followLine">true</se:VendorOption>
-            <se:VendorOption name="maxAngleDelta">90</se:VendorOption>
-            <se:VendorOption name="maxDisplacement">400</se:VendorOption>
-            <se:VendorOption name="repeat">1000</se:VendorOption>
-          </se:TextSymbolizer>
-        </se:Rule>
-
-        <!-- Berijdbaar 4x4 licht -->												
-        <se:Rule>
-          <se:Name>Berijdbaar 4x4 lit</se:Name>
-          <se:Description>
-            <se:Title>Berijdbaar 4x4 licht</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>bereikbaarheid_type_id</ogc:PropertyName>
-              <ogc:Literal>206</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:MaxScaleDenominator>80000</se:MaxScaleDenominator> 
-          <se:LineSymbolizer>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-            </se:Stroke>
-          </se:LineSymbolizer>
-          <se:LineSymbolizer>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#ff9f11</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-              <se:SvgParameter name="stroke-dasharray">6 12</se:SvgParameter>
-            </se:Stroke>
-          </se:LineSymbolizer>
-          <se:TextSymbolizer>
-            <se:VendorOption name="followLine">true</se:VendorOption>
-            <se:VendorOption name="maxAngleDelta">90</se:VendorOption>
-            <se:VendorOption name="maxDisplacement">400</se:VendorOption>
-            <se:VendorOption name="repeat">1000</se:VendorOption>
-          </se:TextSymbolizer>
-        </se:Rule>
-
-        <!-- Looproute -->										
-        <se:Rule>
-          <se:Name>Looproute</se:Name>
+          <se:Name>101</se:Name>
           <se:Description>
             <se:Title>Looproute</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>bereikbaarheid_type_id</ogc:PropertyName>
-              <ogc:Literal>204</ogc:Literal>
+              <ogc:Literal>101</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MaxScaleDenominator>80000</se:MaxScaleDenominator>           
@@ -166,13 +43,107 @@
               <se:SvgParameter name="stroke-dasharray">5 12</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-          <se:TextSymbolizer>
-            <se:VendorOption name="followLine">true</se:VendorOption>
-            <se:VendorOption name="maxAngleDelta">90</se:VendorOption>
-            <se:VendorOption name="maxDisplacement">400</se:VendorOption>
-            <se:VendorOption name="repeat">1000</se:VendorOption>
-          </se:TextSymbolizer>
         </se:Rule>
+											
+        <se:Rule>
+          <se:Name>102</se:Name>
+          <se:Description>
+            <se:Title>Berijdbaar alle voertuigen</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>bereikbaarheid_type_id</ogc:PropertyName>
+              <ogc:Literal>102</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MaxScaleDenominator>80000</se:MaxScaleDenominator> 
+          <se:LineSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+            </se:Stroke>
+          </se:LineSymbolizer>
+          <se:LineSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#ff9f11</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+            </se:Stroke>
+          </se:LineSymbolizer>
+          <se:LineSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+              <se:SvgParameter name="stroke-dasharray">11 11</se:SvgParameter>
+            </se:Stroke>
+          </se:LineSymbolizer>
+        </se:Rule>
+        
+        <se:Rule>
+          <se:Name>103</se:Name>
+          <se:Description>
+            <se:Title>Berijdbaar 4x4 licht</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>bereikbaarheid_type_id</ogc:PropertyName>
+              <ogc:Literal>103</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MaxScaleDenominator>80000</se:MaxScaleDenominator> 
+          <se:LineSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+            </se:Stroke>
+          </se:LineSymbolizer>
+          <se:LineSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#ff9f11</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+              <se:SvgParameter name="stroke-dasharray">6 12</se:SvgParameter>
+            </se:Stroke>
+          </se:LineSymbolizer>
+        </se:Rule>
+									
+        <se:Rule>
+          <se:Name>104</se:Name>
+          <se:Description>
+            <se:Title>Berijdbaar 4x4 zwaar</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>bereikbaarheid_type_id</ogc:PropertyName>
+              <ogc:Literal>104</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <se:MaxScaleDenominator>80000</se:MaxScaleDenominator> 
+          <se:LineSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">6</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+            </se:Stroke>
+          </se:LineSymbolizer>
+          <se:LineSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#ff9f11</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">4</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+            </se:Stroke>
+          </se:LineSymbolizer>
+        </se:Rule>										
 
         <se:Rule>
           <se:Name>201</se:Name>
@@ -191,59 +162,29 @@
               <se:GraphicStroke>
                 <se:Graphic>
                   <se:Mark>
-                    <se:WellKnownName>wkt://LINESTRING(0.0 -0.25,0.25 0.25,0.5 -0.25)</se:WellKnownName>
+                    <se:WellKnownName>x</se:WellKnownName>
+                    <se:Fill>
+                      <se:SvgParameter name="fill">#000000</se:SvgParameter>
+                    </se:Fill>
                     <se:Stroke>
-                      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-                      <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+                      <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
+                      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                     </se:Stroke>
                   </se:Mark>
-                  <se:Size>9</se:Size>
+                  <se:Size>12</se:Size>
                 </se:Graphic>
               </se:GraphicStroke>
+              <se:SvgParameter name="stroke-dasharray">12 24</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-          <se:TextSymbolizer>
-            <se:VendorOption name="followLine">true</se:VendorOption>
-            <se:VendorOption name="maxAngleDelta">90</se:VendorOption>
-            <se:VendorOption name="maxDisplacement">400</se:VendorOption>
-            <se:VendorOption name="repeat">1000</se:VendorOption>
-          </se:TextSymbolizer>
-        </se:Rule>
-        
-        <se:Rule>
-          <se:Name>201</se:Name>
-          <se:Description>
-            <se:Title>Afrastring</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>bereikbaarheid_type_id</ogc:PropertyName>
-              <ogc:Literal>201</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:MaxScaleDenominator>80000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
-              <se:GraphicStroke>
-                <se:Graphic>
-                  <se:Mark>
-                    <se:WellKnownName>wkt://LINESTRING(0.0 -0.25,0.25 0.25,0.5 -0.25)</se:WellKnownName>
-                    <se:Stroke>
-                      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-                      <se:SvgParameter name="stroke-width">2</se:SvgParameter>
-                    </se:Stroke>
-                  </se:Mark>
-                  <se:Size>9</se:Size>
-                </se:Graphic>
-              </se:GraphicStroke>
+              <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-          <se:TextSymbolizer>
-            <se:VendorOption name="followLine">true</se:VendorOption>
-            <se:VendorOption name="maxAngleDelta">90</se:VendorOption>
-            <se:VendorOption name="maxDisplacement">400</se:VendorOption>
-            <se:VendorOption name="repeat">1000</se:VendorOption>
-          </se:TextSymbolizer>
         </se:Rule>
         
         <se:Rule>
@@ -263,23 +204,29 @@
               <se:GraphicStroke>
                 <se:Graphic>
                   <se:Mark>
-                    <se:WellKnownName>wkt://LINESTRING(0.0 -0.25,0.25 0.25,0.5 -0.25)</se:WellKnownName>
+                    <se:WellKnownName>x</se:WellKnownName>
+                    <se:Fill>
+                      <se:SvgParameter name="fill">#DAA520</se:SvgParameter>
+                    </se:Fill>
                     <se:Stroke>
-                      <se:SvgParameter name="stroke">#DAA520</se:SvgParameter>
-                      <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+                      <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
+                      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                     </se:Stroke>
                   </se:Mark>
-                  <se:Size>9</se:Size>
+                  <se:Size>12</se:Size>
                 </se:Graphic>
               </se:GraphicStroke>
+              <se:SvgParameter name="stroke-dasharray">12 12</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-          <se:TextSymbolizer>
-            <se:VendorOption name="followLine">true</se:VendorOption>
-            <se:VendorOption name="maxAngleDelta">90</se:VendorOption>
-            <se:VendorOption name="maxDisplacement">400</se:VendorOption>
-            <se:VendorOption name="repeat">1000</se:VendorOption>
-          </se:TextSymbolizer>
+          <se:LineSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#DAA520</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+            </se:Stroke>
+          </se:LineSymbolizer>
         </se:Rule>
         
         <se:Rule>
@@ -294,28 +241,34 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MaxScaleDenominator>80000</se:MaxScaleDenominator>
-          <se:LineSymbolizer>
+           <se:LineSymbolizer>
             <se:Stroke>
               <se:GraphicStroke>
                 <se:Graphic>
                   <se:Mark>
-                    <se:WellKnownName>wkt://LINESTRING(0.0 -0.25,0.25 0.25,0.5 -0.25)</se:WellKnownName>
+                    <se:WellKnownName>x</se:WellKnownName>
+                    <se:Fill>
+                      <se:SvgParameter name="fill">#FF0000</se:SvgParameter>
+                    </se:Fill>
                     <se:Stroke>
-                      <se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-                      <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+                      <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
+                      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                     </se:Stroke>
                   </se:Mark>
-                  <se:Size>9</se:Size>
+                  <se:Size>12</se:Size>
                 </se:Graphic>
               </se:GraphicStroke>
+              <se:SvgParameter name="stroke-dasharray">12 12</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
-          <se:TextSymbolizer>
-            <se:VendorOption name="followLine">true</se:VendorOption>
-            <se:VendorOption name="maxAngleDelta">90</se:VendorOption>
-            <se:VendorOption name="maxDisplacement">400</se:VendorOption>
-            <se:VendorOption name="repeat">1000</se:VendorOption>
-          </se:TextSymbolizer>
+          <se:LineSymbolizer>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
+            </se:Stroke>
+          </se:LineSymbolizer>
         </se:Rule>
 									
         <se:Rule>
@@ -339,11 +292,33 @@
               <se:SvgParameter name="stroke-dasharray">4 2</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
+        </se:Rule>
+        
+        <se:Rule>
           <se:TextSymbolizer>
+            <se:Label>
+              <ogc:PropertyName>label</ogc:PropertyName>
+            </se:Label>
+            <se:Font>
+              <se:SvgParameter name="font-family">Liberation Sans</se:SvgParameter>
+              <se:SvgParameter name="font-size">13</se:SvgParameter>
+            </se:Font>
+            <se:LabelPlacement>
+              <se:LinePlacement>
+                <se:GeneralizeLine>true</se:GeneralizeLine>
+              </se:LinePlacement>
+            </se:LabelPlacement>
+            <se:Halo>
+              <se:Radius>2</se:Radius>
+              <se:Fill>
+                <se:SvgParameter name="fill">#fafafa</se:SvgParameter>
+              </se:Fill>
+            </se:Halo>
+            <se:Fill>
+              <se:SvgParameter name="fill">#323232</se:SvgParameter>
+            </se:Fill>
             <se:VendorOption name="followLine">true</se:VendorOption>
-            <se:VendorOption name="maxAngleDelta">90</se:VendorOption>
-            <se:VendorOption name="maxDisplacement">400</se:VendorOption>
-            <se:VendorOption name="repeat">1000</se:VendorOption>
+            <se:VendorOption name="maxAngleDelta">25</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
         
