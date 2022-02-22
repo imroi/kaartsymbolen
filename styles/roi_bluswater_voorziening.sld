@@ -161,6 +161,28 @@
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
+        <se:Rule>
+          <se:Name>509</se:Name>
+          <se:Description>
+            <se:Title>Open water</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>symbool_id</ogc:PropertyName>
+              <ogc:Literal>509</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+
+          <se:PointSymbolizer>
+            <se:Graphic>
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:type="simple" xlink:href="https://imroi.github.io/kaartsymbolen/iconen/voorziening/509.svg"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <se:Size>21</se:Size>
+            </se:Graphic>
+          </se:PointSymbolizer>
+        </se:Rule>
       </se:FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
