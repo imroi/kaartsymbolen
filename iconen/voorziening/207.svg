@@ -1,1 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 198.43 198.43"><defs><style>.cls-1{fill:#e30613;}.cls-2{fill:#fff;}</style></defs><g id="Picto_s" data-name="Picto&apos;s"><rect class="cls-1" x="11.34" y="11.34" width="175.75" height="175.75"/><circle class="cls-2" cx="99.21" cy="154.18" r="19.65"/><path class="cls-2" d="M130.29,65.4l-21.42,6.49v-53H89.08v53L68.15,65.44a4,4,0,0,0-4.52,6.11l31.51,46.67a4.66,4.66,0,0,0,7.7,0l31.95-46.71A4,4,0,0,0,130.29,65.4Z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 198.43 400.00001"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="207a.svg"
+   width="198.42999"
+   height="400"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.91493057"
+     inkscape:cx="70.497153"
+     inkscape:cy="48.091081"
+     inkscape:window-width="2269"
+     inkscape:window-height="1851"
+     inkscape:window-x="35"
+     inkscape:window-y="32"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg11" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#fff;}.cls-2{fill:none;stroke:#e30613;stroke-miterlimit:10;stroke-width:14.79px;}</style>
+  </defs>
+  <g
+     id="Picto_s"
+     data-name="Picto's"
+     transform="rotate(-90,198.06942,198.06443)">
+    <polygon
+       class="cls-1"
+       points="89.36,38.73 89.36,68 12.47,68 12.47,130.43 89.36,130.43 89.36,159.69 182.55,99.21 "
+       id="polygon6" />
+    <polygon
+       class="cls-2"
+       points="89.36,38.73 89.36,68 12.47,68 12.47,130.43 89.36,130.43 89.36,159.69 182.55,99.21 "
+       id="polygon8" />
+  </g>
+</svg>
