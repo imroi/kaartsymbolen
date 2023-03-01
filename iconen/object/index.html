@@ -1,22 +1,114 @@
 <html>
-  <head>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <script>
-      (async () => {
-        const subdir = 'object_actualiteit';
-        const response = await fetch('https://api.github.com/repos/imroi/icons/contents/' + subdir);
-        const data = await response.json();
-        let htmlString = '<h2>' + subdir + '</h2>';
-        htmlString += '<table class="table"><tr><th>Naam</th><th>Icoon</th></tr>';
-        for (let file of data) {
-          htmlString += `<tr><td><a href="${file.html_url}">${file.name}</a></td>`;
-          htmlString += `<td><img src="${file.download_url}" alt="${file.name}" width="50px"></td></tr>`;
-        }
-        htmlString += '</table>';
-        document.getElementsByTagName('body')[0].innerHTML = htmlString;
-      })()
-    </script>
-  <body>
+<head>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" rel="stylesheet">
+    <title>ImROI</title>
+</head>
+<body>
+<div class="container py-3">
+    <header>
+        <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+            <span class="fs-4">Objecten</span>
+        </div>
+    </header>
+    <main>
+        <div class="table-responsive">
+        <table class="table">
+        <thead>
+        <tr>
+            <th style="width: 11%;">Id</th>
+            <th style="width: 22%;">Naam</th>
+            <th style="width: 45%;">Beschrijving</th>
+            <th style="width: 22%;">Svg</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th colspan="4">Algemeen</th>
+        </tr>
+        <tr>
+            <th class="text-start" scope="row">blauw</th>
+            <td>Repressief object</td>
+            <td>blauw</td>
+            <td><img style="margin:auto;" height="48" src="./blauw.svg"></td>
+        </tr>
+        <tr>
+            <th class="text-start" scope="row">geel</th>
+            <td>Repressief object</td>
+            <td>geel</td>
+            <td><img style="margin:auto;" height="48" src="./geel.svg"></td>
+        </tr>
+        <tr>
+            <th class="text-start" scope="row">groen</th>
+            <td>Repressief object</td>
+            <td>groen</td>
+            <td><img style="margin:auto;" height="48" src="./groen.svg"></td>
+        </tr>
+        <tr>
+            <th class="text-start" scope="row">oranje</th>
+            <td>Repressief object</td>
+            <td>oranje</td>
+            <td><img style="margin:auto;" height="48" src="./oranje.svg"></td>
+        </tr>
+        <tr>
+            <th class="text-start" scope="row">rood</th>
+            <td>Repressief object</td>
+            <td>rood</td>
+            <td><img style="margin:auto;" height="48" src="./rood.svg"></td>
+        </tr>
+        <tr>
+            <th class="text-start" scope="row">zwart</th>
+            <td>Repressief object</td>
+            <td>zwart</td>
+            <td><img style="margin:auto;" height="48" src="./zwart.svg"></td>
+        </tr>
+        <tr>
+            <th colspan="4">Waterongevallen</th>
+        </tr>
+        <tr>
+            <th class="text-start" scope="row">blauw-wo</th>
+            <td>Repressief object</td>
+            <td>blauw</td>
+            <td><img style="margin:auto;" height="48" src="./blauw-wo.svg"></td>
+        </tr>
+        <tr>
+            <th class="text-start" scope="row">geel-wo</th>
+            <td>Repressief object</td>
+            <td>geel</td>
+            <td><img style="margin:auto;" height="48" src="./geel-wo.svg"></td>
+        </tr>
+        <tr>
+            <th class="text-start" scope="row">groen-wo</th>
+            <td>Repressief object</td>
+            <td>groen</td>
+            <td><img style="margin:auto;" height="48" src="./groen-wo.svg"></td>
+        </tr>
+        <tr>
+            <th class="text-start" scope="row">oranje-wo</th>
+            <td>Repressief object</td>
+            <td>oranje</td>
+            <td><img style="margin:auto;" height="48" src="./oranje-wo.svg"></td>
+        </tr>
+        <tr>
+            <th class="text-start" scope="row">rood-wo</th>
+            <td>Repressief object</td>
+            <td>rood</td>
+            <td><img style="margin:auto;" height="48" src="./rood-wo.svg"></td>
+        </tr>
+        <tr>
+            <th class="text-start" scope="row">zwart-wo</th>
+            <td>Repressief object</td>
+            <td>zwart</td>
+            <td><img style="margin:auto;" height="48" src="./zwart-wo.svg"></td>
+        </tr>
+       </tbody>
+            </table>
+        </div>
+    </main>
+    <footer class="pt-4 my-md-5 pt-md-5">
+        <div class="row">
+        </div>
+    </footer>
+</div>
+</body>
 </html>
