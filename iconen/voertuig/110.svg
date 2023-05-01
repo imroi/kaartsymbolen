@@ -5,11 +5,15 @@
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px"
 	 viewBox="0 0 125 125" style="enable-background:new 0 0 125 125;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#949393;}
+	.st0{fill:#FFED00;}
+	.st1{fill:#E41D13;}
+	.st2{fill:#312783;}
 </style>
 <sodipodi:namedview  bordercolor="#666666" borderopacity="1" gridtolerance="10" guidetolerance="10" id="namedview912" inkscape:current-layer="svg8" inkscape:cx="71.331366" inkscape:cy="49.383253" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-height="1017" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:zoom="6.1005126" objecttolerance="10" pagecolor="#ffffff" showgrid="false">
 	</sodipodi:namedview>
 <path class="st0" d="M98.9,43.5h-7.4V41H80v2.5H45.8V41H34.1v2.5h-7.6v38.5h7.6v2.5h11.7v-2.5H80v2.5h11.6v-2.5h7.4
 	c2.2-2.2,5.2-5.9,5.2-9.7V53.1C104.1,49.2,101.1,45.7,98.9,43.5z M96,74.2l-4.7,0.4V49.7l4.7,0.5c0,0,0.9,6.6,0.9,11.8
 	C96.8,67.3,96,74.2,96,74.2z"/>
+<polygon class="st1" points="64.1,81.9 47.5,81.9 64.3,60.5 81,60.6 "/>
+<polygon class="st2" points="61,43.5 54.6,51.8 54.6,72.9 54.6,72.9 77.6,43.5 "/>
 </svg>
