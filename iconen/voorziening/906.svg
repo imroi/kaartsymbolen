@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="svg8"
+   inkscape:export-filename="C:\Users\User\Desktop\Symbolen COGO\WATER\Lanceerplaats.png"
+   inkscape:export-xdpi="417.73685"
+   inkscape:export-ydpi="417.73685"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="409- blauw1.svg"
+   x="0px"
+   y="0px"
+   width="125px"
+   height="125px"
+   viewBox="0 0 125 125"
+   style="enable-background:new 0 0 125 125;"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1" /><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="7.512"
+   inkscape:cx="62.56656"
+   inkscape:cy="62.5"
+   inkscape:window-width="1851"
+   inkscape:window-height="1177"
+   inkscape:window-x="61"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g837" />
+<style
+   type="text/css"
+   id="style1">
+	.st0{fill:#FF0000;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;}
+</style>
+<g
+   id="g837"
+   transform="matrix(0.03831759,-0.03831759,0.03831759,0.03831759,16.074282,62.538317)">
+	<path
+   id="path819-3"
+   inkscape:connector-curvature="0"
+   class="st0"
+   d="M 601.6,1460 1449.4,612.3 601.6,-235.5 -246.1,612.3 Z"
+   style="fill:#000080" />
+	<path
+   id="path821-6"
+   inkscape:connector-curvature="0"
+   class="st1"
+   d="M 601.6,1325.6 -111.7,612.3 601.7,-101.3 1315.1,612.3 Z"
+   style="image-rendering:auto" />
+	<g
+   id="g5925"
+   transform="rotate(-0.70389062,73333.841,-1393.3199)">
+		<path
+   id="rect5894"
+   inkscape:connector-curvature="0"
+   class="st2"
+   d="M 806.9,108.4 200.6,-497.9 161.5,-458.8 757.4,137 Z" />
+		
+			<rect
+   id="rect5915"
+   x="240.10001"
+   y="-318"
+   transform="matrix(-0.7071,-0.7071,0.7071,-0.7071,1148.7013,-115.3315)"
+   class="st2"
+   width="620.70001"
+   height="44.900002" />
+		
+			<ellipse
+   id="path5917"
+   transform="matrix(-0.7071,-0.7071,0.7071,-0.7071,1038.2277,-106.525)"
+   class="st2"
+   cx="497.10001"
+   cy="-268.29999"
+   rx="56.299999"
+   ry="53.099998" />
+		<path
+   id="path5919"
+   inkscape:connector-curvature="0"
+   sodipodi:nodetypes="ccsccc"
+   d="m 372,-700.8 -60.7,87.5 c 0,0 178.2,239 289.2,337 282.1,249 421,139.6 421,139.6 l 39.9,-28 C 816.6,-321.6 595.5,-514.7 372,-700.8 Z" />
+	</g>
+	
+</g>
+</svg>
