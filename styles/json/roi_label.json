@@ -1,0 +1,88 @@
+{
+  "name": "",
+  "rules": [
+    {
+      "name": "Algemeen",
+      "filter": ["==", "annotatie_id", 101],
+      "symbolizers": [
+        {
+          "kind": "Text",
+          "size": 16,
+          "color": "#000000",
+          "label": "{{label}}",
+          "fontStyle": "normal",
+          "haloColor": "#FFFFFF",
+          "haloWidth": 1.5,
+          "placement": "point",
+          "fontWeight": "normal"
+        }
+      ],
+      "scaleDenominator": { "max": 50000 }
+    },
+    {
+      "name": "Gevaar",
+      "filter": ["==", "annotatie_id", 102],
+      "symbolizers": [
+        {
+          "kind": "Text",
+          "size": 16,
+          "color": "#FFFFFF",
+          "label": "{{label}}",
+          "fontStyle": "bold",
+          "placement": "point",
+          "fontWeight": "normal"
+        }
+      ],
+      "scaleDenominator": { "max": 50000 }
+    },
+    {
+      "name": "Voorzichting",
+      "filter": ["==", "annotatie_id", 103],
+      "symbolizers": [
+        {
+          "kind": "Text",
+          "size": 16,
+          "color": "#000000",
+          "label": "{{label}}",
+          "fontStyle": "bold",
+          "placement": "point",
+          "fontWeight": "normal"
+        }
+      ],
+      "scaleDenominator": { "max": 50000 }
+    },
+    {
+      "name": "Waarschuwing",
+      "filter": ["==", "annotatie_id", 104],
+      "symbolizers": [
+        {
+          "kind": "Text",
+          "size": 16,
+          "color": "#000000",
+          "label": "{{label}}",
+          "fontStyle": "bold",
+          "placement": "point",
+          "fontWeight": "normal"
+        }
+      ],
+      "scaleDenominator": { "max": 50000 }
+    },
+    {
+      "name": "Anders",
+      "filter": ["==", "annotatie_id", 999],
+      "symbolizers": [
+        {
+          "kind": "Text",
+          "size": 16,
+          "color": "#000000",
+          "label": "{{label}}",
+          "fontStyle": "normal",
+          "placement": "point",
+          "fontWeight": "normal"
+        }
+      ],
+      "scaleDenominator": { "max": 50000 }
+    }
+  ]
+}
+

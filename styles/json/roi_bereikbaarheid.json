@@ -1,0 +1,348 @@
+{
+  "name": "",
+  "rules": [
+    {
+      "name": "Alles",
+      "symbolizers": [
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#888888",
+          "width": 3
+        }
+      ],
+      "scaleDenominator": { "min": 20000 }
+    },
+    {
+      "name": "Looproute",
+      "filter": ["==", "verbinding_id", 101],
+      "symbolizers": [
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "black",
+          "width": 6
+        },
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#bf9000",
+          "width": 4
+        },
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#3adef4",
+          "width": 4,
+          "dasharray": [6, 12]
+        }
+      ],
+      "scaleDenominator": { "max": 20000 }
+    },
+    {
+      "name": "Berijdbaar alle voertuigen",
+      "filter": ["==", "verbinding_id", 102],
+      "symbolizers": [
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#ff9f11",
+          "width": 4
+        },
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "white",
+          "width": 4,
+          "dasharray": [6, 12]
+        }
+      ],
+      "scaleDenominator": { "max": 20000 }
+    },
+    {
+      "name": "Berijdbaar 4x4 licht",
+      "filter": ["==", "verbinding_id", 103],
+      "symbolizers": [
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#ff9f11",
+          "width": 4
+        },
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#232323",
+          "width": 4,
+          "dasharray": [6, 12]
+        }
+      ],
+      "scaleDenominator": { "max": 20000 }
+    },
+    {
+      "name": "Berijdbaar 4x4 zwaar",
+      "filter": ["==", "verbinding_id", 104],
+      "symbolizers": [
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#232323",
+          "width": 6
+        },
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#ff9f11",
+          "width": 4
+        }
+      ],
+      "scaleDenominator": { "max": 20000 }
+    },
+    {
+      "name": "Aanrijroute",
+      "filter": ["==", "verbinding_id", 105],
+      "symbolizers": [
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#33a02c",
+          "width": 0.5
+        },
+        {
+          "kind": "Line",
+          "graphicStroke": {
+            "kind": "Mark",
+            "color": "#33a02c",
+            "radius": 12,
+            "wellKnownName": "shape://carrow"
+          }
+        }
+      ],
+      "scaleDenominator": { "max": 20000 }
+    },
+    {
+      "name": "Calamiteitenroute",
+      "filter": ["==", "verbinding_id", 106],
+      "symbolizers": [
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#e31a1c",
+          "width": 0.5
+        },
+        {
+          "kind": "Line",
+          "graphicStroke": {
+            "kind": "Mark",
+            "color": "#e31a1c",
+            "radius": 12,
+            "wellKnownName": "shape://carrow"
+          }
+        }
+      ],
+      "scaleDenominator": { "max": 20000 }
+    },
+    {
+      "name": "Vluchtroute",
+      "filter": ["==", "verbinding_id", 107],
+      "symbolizers": [
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#0000FF",
+          "width": 0.5
+        },
+        {
+          "kind": "Line",
+          "graphicStroke": {
+            "kind": "Mark",
+            "color": "#0000FF",
+            "radius": 12,
+            "wellKnownName": "shape://carrow"
+          }
+        }
+      ],
+      "scaleDenominator": { "max": 20000 }
+    },
+    {
+      "name": "Afrastring",
+      "filter": ["==", "verbinding_id", 201],
+      "symbolizers": [
+        {
+          "kind": "Line",
+          "color": "#ffffff",
+          "dasharray": [12, 24],
+          "graphicStroke": {
+            "kind": "Mark",
+            "color": "#000000",
+            "radius": 6,
+            "strokeColor": "#ffffff",
+            "wellKnownName": "x"
+          }
+        },
+        { "cap": "square", "join": "bevel", "kind": "Line", "color": "#232323" }
+      ],
+      "scaleDenominator": { "max": 20000 }
+    },
+    {
+      "name": "Afrastring defensie",
+      "filter": ["==", "verbinding_id", 202],
+      "symbolizers": [
+        {
+          "kind": "Line",
+          "color": "#ffffff",
+          "dasharray": [12, 12],
+          "graphicStroke": {
+            "kind": "Mark",
+            "color": "#DAA520",
+            "radius": 6,
+            "strokeColor": "#ffffff",
+            "wellKnownName": "x"
+          }
+        },
+        { "cap": "square", "join": "bevel", "kind": "Line", "color": "#DAA520" }
+      ],
+      "scaleDenominator": { "max": 20000 }
+    },
+    {
+      "name": "Afrastring minutie",
+      "filter": ["==", "verbinding_id", 203],
+      "symbolizers": [
+        {
+          "kind": "Line",
+          "color": "#ffffff",
+          "dasharray": [12, 12],
+          "graphicStroke": {
+            "kind": "Mark",
+            "color": "#FF0000",
+            "radius": 6,
+            "strokeColor": "#ffffff",
+            "wellKnownName": "x"
+          }
+        },
+        { "cap": "square", "join": "bevel", "kind": "Line", "color": "#FF0000" }
+      ],
+      "scaleDenominator": { "max": 20000 }
+    },
+    {
+      "name": "Belemmering",
+      "filter": ["==", "verbinding_id", 204],
+      "symbolizers": [
+        {
+          "kind": "Line",
+          "color": "#ffffff",
+          "dasharray": [12, 24],
+          "graphicStroke": {
+            "kind": "Mark",
+            "color": "#000000",
+            "radius": 6,
+            "strokeColor": "#ffffff",
+            "wellKnownName": "x"
+          }
+        }
+      ],
+      "scaleDenominator": { "max": 20000 }
+    },
+    {
+      "name": "Oever",
+      "filter": ["==", "verbinding_id", 301],
+      "symbolizers": [
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#f9fc16",
+          "width": 6,
+          "dasharray": [6, 12]
+        },
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#232323",
+          "width": 4,
+          "dasharray": [2, 7]
+        }
+      ],
+      "scaleDenominator": { "max": 20000 }
+    },
+    {
+      "name": "Kade",
+      "filter": ["==", "verbinding_id", 302],
+      "symbolizers": [
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#e68a00",
+          "width": 4,
+          "dasharray": [7, 1]
+        }
+      ],
+      "scaleDenominator": { "max": 20000 }
+    },
+    {
+      "name": "Kabel",
+      "filter": ["==", "verbinding_id", 401],
+      "symbolizers": [
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#e31a1c",
+          "width": 5,
+          "dasharray": [4, 7]
+        }
+      ],
+      "scaleDenominator": { "max": 20000 }
+    },
+    {
+      "name": "Anders",
+      "filter": ["==", "verbinding_id", 999],
+      "symbolizers": [
+        {
+          "cap": "round",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#888888",
+          "width": 3,
+          "dasharray": [4, 2]
+        }
+      ],
+      "scaleDenominator": { "max": 20000 }
+    },
+    {
+      "name": "",
+      "symbolizers": [
+        {
+          "font": ["Liberation Sans"],
+          "kind": "Text",
+          "size": 16,
+          "color": "#000000",
+          "label": "{{label}}",
+          "opacity": 1,
+          "fontStyle": "normal",
+          "haloColor": "#ffffff",
+          "haloWidth": 1.5,
+          "placement": "line",
+          "fontWeight": "normal"
+        }
+      ],
+      "scaleDenominator": { "max": 10000 }
+    }
+  ]
+}
+

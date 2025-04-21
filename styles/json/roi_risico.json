@@ -1,0 +1,35 @@
+{
+  "name": "",
+  "rules": [
+    {
+      "name": "Risico",
+      "symbolizers": [
+        {
+          "kind": "Icon",
+          "size": 20,
+          "image": "https://imroi.github.io/kaartsymbolen/iconen/risico/{dreiging_id}.svg",
+          "sizeUnit": "m",
+          "allowOverlap": true,
+          "defaultImage": "https://imroi.github.io/kaartsymbolen/iconen/risico/101.svg"
+        }
+      ],
+      "scaleDenominator": { "max": 25000 }
+    },
+    {
+      "name": "Label",
+      "symbolizers": [
+        {
+          "kind": "Text",
+          "size": 16,
+          "color": "#000000",
+          "label": { "args": ["label"], "name": "property" },
+          "offset": [0, 2],
+          "haloColor": "#ffffff",
+          "haloWidth": 1.5
+        }
+      ],
+      "scaleDenominator": { "max": 12500 }
+    }
+  ]
+}
+

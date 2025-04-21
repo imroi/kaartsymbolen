@@ -11,7 +11,7 @@
           <PointSymbolizer>
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:href="https://imroi.github.io/kaartsymbolen/iconen/object/blauw.svg" xlink:type="simple"/>
+                <OnlineResource xlink:href="https://imroi.github.io/kaartsymbolen/iconen/object/blauw-wo.svg" xlink:type="simple"/>
                 <Format>image/svg</Format>
               </ExternalGraphic>
               <Size>50</Size>

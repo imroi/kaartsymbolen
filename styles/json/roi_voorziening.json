@@ -1,0 +1,20 @@
+{
+  "name": "",
+  "rules": [
+    {
+      "name": "Voorziening",
+      "symbolizers": [
+        {
+          "kind": "Icon",
+          "size": 14,
+          "image": "https://imroi.github.io/kaartsymbolen/iconen/voorziening/{symbool_id}.svg",
+          "rotate": { "args": ["rotatie"], "name": "property" },
+          "sizeUnit": "m",
+          "allowOverlap": true,
+          "defaultImage": "https://imroi.github.io/kaartsymbolen/iconen/voorziening/172.svg"
+        }
+      ]
+    }
+  ]
+}
+

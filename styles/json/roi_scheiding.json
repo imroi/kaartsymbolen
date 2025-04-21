@@ -1,0 +1,87 @@
+{
+  "name": "",
+  "rules": [
+    {
+      "name": "Bouwdeel scheiding",
+      "filter": ["==", "scheiding_type_id", 104],
+      "symbolizers": [
+        { "cap": "square", "join": "bevel", "kind": "Line", "width": 2 }
+      ],
+      "scaleDenominator": { "max": 50000 }
+    },
+    {
+      "name": "Rookwerende scheiding",
+      "filter": ["==", "scheiding_type_id", 105],
+      "symbolizers": [
+        {
+          "cap": "square",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#3288bd",
+          "width": 2
+        }
+      ],
+      "scaleDenominator": { "max": 50000 }
+    },
+    {
+      "name": "30 min brandwerende scheiding",
+      "filter": ["==", "scheiding_type_id", 101],
+      "symbolizers": [
+        {
+          "cap": "square",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#e31a1c",
+          "width": 2,
+          "dasharray": [10, 10]
+        }
+      ],
+      "scaleDenominator": { "max": 50000 }
+    },
+    {
+      "name": "60 min brandwerende scheiding",
+      "filter": ["==", "scheiding_type_id", 102],
+      "symbolizers": [
+        {
+          "cap": "square",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#33a02c",
+          "width": 2,
+          "dasharray": [10, 10]
+        }
+      ],
+      "scaleDenominator": { "max": 50000 }
+    },
+    {
+      "name": "120 min brandwerende scheiding",
+      "filter": ["==", "scheiding_type_id", 103],
+      "symbolizers": [
+        {
+          "cap": "square",
+          "join": "bevel",
+          "kind": "Line",
+          "color": "#e31a1c",
+          "width": 2
+        }
+      ],
+      "scaleDenominator": { "max": 50000 }
+    },
+    {
+      "name": "Label",
+      "symbolizers": [
+        {
+          "kind": "Text",
+          "size": 16,
+          "color": "#000000",
+          "label": { "args": ["label"], "name": "property" },
+          "haloColor": "#ffffff",
+          "haloWidth": 1.5,
+          "placement": "line"
+        }
+      ],
+      "scaleDenominator": { "max": 50000 }
+    }
+  ]
+}
+

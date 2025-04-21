@@ -1,0 +1,34 @@
+{
+  "name": "",
+  "rules": [
+    {
+      "name": "Repressief object",
+      "symbolizers": [
+        {
+          "kind": "Icon",
+          "size": 14,
+          "image": "https://imroi.github.io/kaartsymbolen/iconen/object/blauw.svg"
+        }
+      ]
+    },
+    {
+      "name": "",
+      "symbolizers": [
+        {
+          "font": ["Liberation Sans"],
+          "kind": "Text",
+          "size": 20,
+          "color": "#333333",
+          "label": { "args": ["formelenaam"], "name": "property" },
+          "offset": [0, -18],
+          "opacity": 0.8,
+          "fontStyle": "normal",
+          "placement": "point",
+          "fontWeight": "normal"
+        }
+      ],
+      "scaleDenominator": { "max": 3000 }
+    }
+  ]
+}
+

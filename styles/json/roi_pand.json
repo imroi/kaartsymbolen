@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "rules": [
+    {
+      "name": "Pand",
+      "symbolizers": [
+        {
+          "kind": "Fill",
+          "color": "#fff97a",
+          "opacity": 0.7,
+          "outlineColor": "#000001",
+          "outlineWidth": 0.5,
+          "outlineOpacity": 0.7
+        },
+        {
+          "kind": "Text",
+          "size": 16,
+          "color": "#000000",
+          "label": { "args": ["label"], "name": "property" },
+          "haloColor": "#ffffff",
+          "haloWidth": 1.5
+        }
+      ],
+      "scaleDenominator": { "max": 50000 }
+    }
+  ]
+}
+

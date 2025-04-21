@@ -1,0 +1,40 @@
+{
+  "name": "",
+  "rules": [
+    {
+      "name": "Gevaarlijke stof (GHS)",
+      "filter": ["all", ["==", "gevi", null], ["==", "stid", null]],
+      "symbolizers": [
+        {
+          "kind": "Icon",
+          "size": 35,
+          "image": "https://imroi.github.io/kaartsymbolen/iconen/gevaarlijkestof/{ghs}.svg",
+          "defaultImage": "https://imroi.github.io/kaartsymbolen/iconen/gevaarlijkestof/1.svg"
+        }
+      ],
+      "scaleDenominator": { "max": 25000 }
+    },
+    {
+      "name": "Gevaarlijke stof (GEVI)",
+      "filter": ["all", ["!=", "gevi", null], ["!=", "stid", null]],
+      "symbolizers": [
+        {
+          "kind": "Icon",
+          "size": 35,
+          "image": "https://imroi.github.io/kaartsymbolen/iconen/gevaarlijkestof/gevi.svg"
+        },
+        {
+          "kind": "Text",
+          "size": 14,
+          "color": "#000000",
+          "label": "{gevi}\n{stid}",
+          "fontStyle": "bold",
+          "placement": "point",
+          "fontWeight": "normal"
+        }
+      ],
+      "scaleDenominator": { "max": 25000 }
+    }
+  ]
+}
+
