@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="125" height="125" version="1.1" viewBox="0 0 125 125" xmlns="http://www.w3.org/2000/svg">
+ <g class="drawing-elements" fill="none" stroke="#1a5fb4" stroke-linecap="round" stroke-linejoin="round">
+  <line class="" x1="30.667" x2="95.014" y1="23.667" y2="23.667" stroke-width="4"/>
+  <line class="" x1="61.667" x2="61.667" y1="25" y2="56.333" stroke-width="4"/>
+  <line class="" x1="50.023" x2="60.711" y1="47.023" y2="56.709" stroke-width="2.0453"/>
+  <line class="" x1="73.617" x2="62.05" y1="47.383" y2="57.014" stroke-width="2.0994"/>
+ </g>
+</svg>
